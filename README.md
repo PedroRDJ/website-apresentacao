@@ -8,7 +8,7 @@ Atualmente, sou estudante de **Engenharia da Computação** na SATC e estou em b
 
 O site está hospedado gratuitamente através do GitHub Pages. Você pode acessá-lo clicando no link abaixo:
 
- **[LINK]**
+ **https://pedrordj.github.io/website-apresentacao/**
 
 ---
 
