@@ -1,0 +1,180 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.right-column { 
+  order: 1; 
+  padding: 24px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  
+  background-image: url('Imagens/flag-br.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.middle-column { 
+  order: 2; 
+}
+
+.left-column { 
+  order: 3; 
+  padding: 24px 16px 40px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.middle-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  background-color: #ffffff;
+}
+
+.hero-section { 
+  border-bottom: 2px solid #eee; 
+  padding-bottom: 20px; 
+  text-align: justify;
+}
+
+.about-section { 
+  line-height: 1.6; 
+  text-align: justify;
+}
+
+.portfolio-section { 
+  border-top: 2px solid #eee; 
+  padding-top: 20px; 
+}
+
+h1, h2, h3 { 
+  color: #111; 
+  margin-top: 0; 
+}
+
+h3 { 
+  margin-top: 30px; 
+}
+
+a { 
+  color: #0066cc; 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+#lang-toggle {
+  background-color: #111;
+  color: white;
+  border: 2px solid #fff; 
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+}
+
+#lang-toggle:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.resume-container {
+  text-align: center;
+  width: 100%; 
+}
+
+.resume-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.resume-link {
+  display: block;
+  position: relative;
+}
+
+.resume-preview {
+  width: 100%; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.resume-link:hover .resume-preview {
+  transform: scale(1.02);
+}
+
+.download-icon {
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  background-color: #0066cc;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.satc-container { 
+  display: inline-block; 
+  text-align: center; 
+  vertical-align: middle; 
+}
+
+.satc-logo { 
+  display: block; 
+  height: 28px; 
+  width: auto; 
+  margin: 0 4px; 
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+    gap: 20px;
+  }
+  
+  .left-column { 
+    order: unset; 
+    padding: 40px 20px; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .middle-column { 
+    order: unset; 
+    padding: 40px 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); 
+  }
+  
+  .right-column { 
+    order: unset; 
+    padding: 40px 20px; 
+    justify-content: center; 
+    align-items: center; 
+  }
+}
