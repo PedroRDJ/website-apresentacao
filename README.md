@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do meu site de portfólio pessoal! Este projeto foi desenvolvido para apresentar meu currículo, minhas habilidades técnicas e meus projetos acadêmicos/pessoais. 
 
-Atualmente, sou estudante de **Engenharia da Computação** na SATC e estou em busca da minha primeira oportunidade na área de tecnologia, com grande interesse em construir uma carreira em **Desenvolvimento de Software**.
+Atualmente, sou estudante de **Engenharia da Computação** na SATC e estou construindo uma carreira na área da tecnologia, com grande interesse em seguir no segmento de **Desenvolvimento de Software**.
 
 ## Acesse o Site
 
